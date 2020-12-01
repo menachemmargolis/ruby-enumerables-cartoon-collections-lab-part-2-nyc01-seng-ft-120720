@@ -29,6 +29,7 @@ def find_valid_calls(planeteer_calls)
     valid_calls.any? do |a|
     if  planeteer_calls.include?(a)
       return a
+    end
   end
 
 
