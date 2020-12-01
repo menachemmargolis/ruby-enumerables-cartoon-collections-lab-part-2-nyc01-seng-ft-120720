@@ -28,7 +28,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
     valid_calls.any? do |a|
     if  planeteer_calls.include?(a)
-      return a.first
+      return planeteer_calls(a).first
     else
       return nil
     end
