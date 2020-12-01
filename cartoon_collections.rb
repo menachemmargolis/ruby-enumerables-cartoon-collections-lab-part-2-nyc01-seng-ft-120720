@@ -32,7 +32,7 @@ def find_valid_calls(planeteer_calls)
     if  planeteer_calls.include?(a)
       k = a
     end
-    
+
   end
 
 return k
