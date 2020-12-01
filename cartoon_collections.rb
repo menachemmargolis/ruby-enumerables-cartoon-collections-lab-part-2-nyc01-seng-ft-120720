@@ -30,7 +30,7 @@ def find_valid_calls(planeteer_calls)
     if  planeteer_calls.include?(a)
       return a
 
-  else 
+  else
     return nil
   end
 
